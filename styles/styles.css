@@ -264,6 +264,13 @@ img {
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 769px) {
+  .features-grid {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 800px;
+  }
+}
+
 .feature-card {
   background-color: #fafafa;
   border-radius: 6px;
@@ -304,7 +311,9 @@ img {
 .icon-orange {
   border-color: #B26500;
 }
-
+.icon-orange-alt {
+  border-color: #EE7B20;
+}
 .icon-green {
   border-color: #07A336;
 }
